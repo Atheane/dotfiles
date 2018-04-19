@@ -30,3 +30,21 @@ export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
+
+#Anaconda
+PATH=$PATH:$HOME/anaconda3/bin
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+### Create-react-app
+export PATH="/usr/local/bin/create-react-app:$PATH"
+
+### path for eslint and webpack
+export PATH="./bin:./node_modules/.bin:${PATH}:/usr/local/sbin"
+
+fpath=(~/.zsh/completions /home/athean/.oh-my-zsh/plugins/history-substring-search /home/athean/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting /home/athean/.oh-my-zsh/plugins/sublime /home/athean/.oh-my-zsh/plugins/common-aliases /home/athean/.oh-my-zsh/plugins/last-working-dir /home/athean/.oh-my-zsh/plugins/rbenv /home/athean/.oh-my-zsh/plugins/brew /home/athean/.oh-my-zsh/plugins/gitfast /home/athean/.oh-my-zsh/functions /home/athean/.oh-my-zsh/completions /usr/local/share/zsh/site-functions /usr/share/zsh/vendor-functions /usr/share/zsh/vendor-completions /usr/share/zsh/functions/Calendar /usr/share/zsh/functions/Chpwd /usr/share/zsh/functions/Completion /usr/share/zsh/functions/Completion/AIX /usr/share/zsh/functions/Completion/BSD /usr/share/zsh/functions/Completion/Base /usr/share/zsh/functions/Completion/Cygwin /usr/share/zsh/functions/Completion/Darwin /usr/share/zsh/functions/Completion/Debian /usr/share/zsh/functions/Completion/Linux /usr/share/zsh/functions/Completion/Mandriva /usr/share/zsh/functions/Completion/Redhat /usr/share/zsh/functions/Completion/Solaris /usr/share/zsh/functions/Completion/Unix /usr/share/zsh/functions/Completion/X /usr/share/zsh/functions/Completion/Zsh /usr/share/zsh/functions/Completion/openSUSE /usr/share/zsh/functions/Exceptions /usr/share/zsh/functions/MIME /usr/share/zsh/functions/Misc /usr/share/zsh/functions/Newuser /usr/share/zsh/functions/Prompts /usr/share/zsh/functions/TCP /usr/share/zsh/functions/VCS_Info /usr/share/zsh/functions/VCS_Info/Backends /usr/share/zsh/functions/Zftp /usr/share/zsh/functions/Zle)
+autoload -U compinit && compinit
+eval alias git=hub
+
+
